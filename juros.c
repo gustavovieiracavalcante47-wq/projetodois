@@ -30,6 +30,10 @@ int main() {
   for (int i = 0; i < 3; i++) {
     printf("Valor Do vetor: %d\n", vetor[i]);
   }
+
+   for (int i = 0; i < 3; i++) {
+    printf("Valor De memoria do vetor: %p\n", &vetor[i]);
+  }
   
   printf("Por Favor digite um novo valor para o vetor: \n");
   scanf("%d",&novoValordovetor);
@@ -41,10 +45,19 @@ int main() {
   for(int i = 0; i < 3; i++) {
     printf("Valor Do vetor: %d\n", *(vetor + i));
   }
+     for (int i = 0; i < 3; i++) {
+    printf("Valor De memoria do vetor: %p\n", &vetor[i]);
+  }
   for (int i = 0; i < 2; i++) {
   for (int j = 0; j < 2; j++) {
     printf("Valores da matriz: %d\n", matriz[i][j]);
   }
+  for (int i = 0; i < 2; i++) {
+  for (int j = 0; j < 2; j++) {
+    printf("Valores da matriz: %p\n", &matriz[i][j]);
+  }
 } 
-
+  }
 }
+
+
