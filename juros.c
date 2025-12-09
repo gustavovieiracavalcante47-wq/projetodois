@@ -14,8 +14,6 @@ int main() {
   scanf("%d",&anos);
   printf("Insira o valor inical do investimento:\n");
   scanf("%f", &brl);
-
-  //  juros = juros / 100;
   printf("Juros: %.2f\n",juros / 100);
   brlfinal = brl * (1 + (juros * anos));
 
