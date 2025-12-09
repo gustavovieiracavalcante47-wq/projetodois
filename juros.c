@@ -10,9 +10,9 @@ int main() {
   float brl;
   printf("Insira a taxa de juros:\n");
   scanf("%f",&juros);
-  printf("Insira a quantiade de anos a ser simulados:\n");
+  printf("Insira a quantiade de anos a serem simulados:\n");
   scanf("%d",&anos);
-  printf("Insira o valor inical do investimento:\n");
+  printf("Insira o valor inicial do investimento:\n");
   scanf("%f", &brl);
   printf("Juros: %.2f\n",juros / 100);
   brlfinal = brl * (1 + (juros * anos));
