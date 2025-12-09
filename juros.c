@@ -32,7 +32,7 @@ int main() {
   
   printf("Por Favor digite um novo valor para o vetor: \n");
   scanf("%d",&novoValordovetor);
-  printf("Agora digite qual elemento você quer modificar (de 1 a 3): \n");
+  printf("Agora digite qual elemento você quer modificar (de 0 a 2): \n");
   scanf("%d",&elemento);
 
   *(vetor + elemento) = novoValordovetor;
